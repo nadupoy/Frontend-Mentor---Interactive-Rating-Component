@@ -1,12 +1,290 @@
-.thank-you-state {
-    display: none;
+@media screen and (min-width: 375px) and (max-width: 1439px) {
+    * {
+        font-family: 'Overpass', sans-serif;
+        margin: 0;
+    }
+
+    html {
+        height: 100%;
+        display: flex;
+    }
+
+    body {
+        background-color: hsl(216, 12%, 8%);
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    main {
+        width: 300px;
+        padding: 25px 20px;
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 15px;
+        margin-bottom: 16px;
+    }
+
+    /* .rating-state {
+        display: none;
+    } */
+
+    .rating-state img {
+        background-color: hsla(216, 12%, 54%, 0.15);
+        padding: 12px;
+        border-radius: 24px;
+    }
+
+    h2 {
+        color: hsl(0, 0%, 100%);
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    p {
+        font-size: 15px;
+        color: hsl(217, 12%, 63%);
+        line-height: 1.5;
+    }
+
+    form {
+        display: grid;
+        margin-top: 24px;
+    }
+
+    .rating-buttons {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+
+    [type="button"] {
+        color: hsl(217, 12%, 63%);
+        background-color: hsla(216, 12%, 54%, 0.15);
+        box-sizing: border-box;
+        width: 48px;
+        height: 48px;
+        border: none;
+        border-radius: 24px;
+    }
+
+    [type="button"]:hover {
+        cursor: pointer;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(25, 97%, 53%);
+    }
+
+    [type="button"]:focus {
+        background-color: hsl(217, 12%, 63%);
+        color: hsl(0, 0%, 100%);
+    }
+
+    [type="submit"] {
+        border: none;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(25, 97%, 53%);
+        font-size: 15px;
+        font-weight: 700;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 8px;
+    }
+
+    [type="submit"]:hover {
+        color: hsl(25, 97%, 53%);
+        background-color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+
+    .thank-you-state {
+        display: none;
+    }
+
+    .thank-you-state img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+        margin-top: 16px;
+    }
+
+    .thank-you-state p {
+        text-align: center;
+    }
+
+    .selected-rating {
+        color: hsl(25, 97%, 53%);
+        background-color: hsla(216, 12%, 54%, 0.15);
+        padding: 4px 16px;
+        border-radius: 16px;
+        width: max-content;
+        margin: auto;
+    }
+
+    .thank-you-state h2 {
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 11px;
+        text-align: center;
+        color: hsl(217, 12%, 63%);
+    }
+
+    footer a {
+        color: hsl(0, 0%, 100%);
+        text-decoration: none;
+    }
+
+    footer a:visited {
+        text-decoration: none;
+    }
 }
 
-footer {
-    font-size: 11px;
-    text-align: center;
-}
 
-footer a {
-    color: hsl(228, 45%, 44%);
+@media screen and (min-width: 1440px) {
+    * {
+        font-family: 'Overpass', sans-serif;
+        margin: 0;
+    }
+
+    html {
+        height: 100%;
+        display: flex;
+    }
+
+    body {
+        background-color: hsl(216, 12%, 8%);
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    main {
+        width: 340px;
+        padding: 25px 20px;
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 15px;
+        margin-bottom: 16px;
+    }
+
+    /* .rating-state {
+        display: none;
+    } */
+
+    .rating-state img {
+        background-color: hsla(216, 12%, 54%, 0.15);
+        padding: 12px;
+        border-radius: 24px;
+    }
+
+    h2 {
+        color: hsl(0, 0%, 100%);
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    p {
+        font-size: 15px;
+        color: hsl(217, 12%, 63%);
+        line-height: 1.5;
+    }
+
+    form {
+        display: grid;
+        margin-top: 24px;
+    }
+
+    .rating-buttons {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+
+    [type="button"] {
+        color: hsl(217, 12%, 63%);
+        background-color: hsla(216, 12%, 54%, 0.15);
+        box-sizing: border-box;
+        width: 48px;
+        height: 48px;
+        border: none;
+        border-radius: 24px;
+    }
+
+    [type="button"]:hover {
+        cursor: pointer;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(25, 97%, 53%);
+    }
+
+    [type="button"]:focus {
+        background-color: hsl(217, 12%, 63%);
+        color: hsl(0, 0%, 100%);
+    }
+
+    [type="submit"] {
+        border: none;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(25, 97%, 53%);
+        font-size: 15px;
+        font-weight: 700;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 8px;
+    }
+
+    [type="submit"]:hover {
+        color: hsl(25, 97%, 53%);
+        background-color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+
+    .thank-you-state {
+        display: none;
+    }
+
+    .thank-you-state img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+        margin-top: 16px;
+    }
+
+    .thank-you-state p {
+        text-align: center;
+    }
+
+    .selected-rating {
+        color: hsl(25, 97%, 53%);
+        background-color: hsla(216, 12%, 54%, 0.15);
+        padding: 4px 16px;
+        border-radius: 16px;
+        width: max-content;
+        margin: auto;
+    }
+
+    .thank-you-state h2 {
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 11px;
+        text-align: center;
+        color: hsl(217, 12%, 63%);
+    }
+
+    footer a {
+        color: hsl(0, 0%, 100%);
+        text-decoration: none;
+    }
+
+    footer a:visited {
+        text-decoration: none;
+    }
 }
