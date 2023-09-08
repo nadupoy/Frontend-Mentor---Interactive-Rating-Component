@@ -3,14 +3,22 @@
 2. This rating is stored in the string literal `You selected ${rating} out of 5`.
 3. The string literal is added to the '.selected-rating' textContent.
 4. Upon sumbmitting the results, the contents in '.thank-you-state' replace the contents in '.rating-state'.
+
+N/B: The submitted form value should be the value of the input button that is in 'focus'.
 */
 
 const selectedRating = document.querySelector('.selected-rating');
-const ratingForm = document.querySelector('form');
-
+const ratingForm = document.forms.rating;
+const ratingButtons = document.querySelectorAll('[type="button"]');
+let ratingButton;
 
 function selectRating() {
-    // let rating = 
+    let rating = this.value;
+    selectedRating.textContent = `You have selected ${rating} out of 5`;
+}
+
+for (ratingButton of ratingButtons) {
+    ratingButton.addEventListener('focus', selectRating);
 }
 
 function submitRating(event) {
