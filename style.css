@@ -114,13 +114,17 @@
         text-align: center;
     }
 
-    .selected-rating {
+    p.selected-rating {
         color: hsl(25, 97%, 53%);
         background-color: hsla(216, 12%, 54%, 0.15);
         padding: 4px 16px;
         border-radius: 16px;
         width: max-content;
         margin: auto;
+    }
+
+    span {
+        color: hsl(25, 97%, 53%);
     }
 
     #thank-you-state h2 {
@@ -260,13 +264,17 @@
         text-align: center;
     }
 
-    .selected-rating {
+    p.selected-rating {
         color: hsl(25, 97%, 53%);
         background-color: hsla(216, 12%, 54%, 0.15);
         padding: 4px 16px;
         border-radius: 16px;
         width: max-content;
         margin: auto;
+    }
+
+    span {
+        color: hsl(25, 97%, 53%);
     }
 
     #thank-you-state h2 {
