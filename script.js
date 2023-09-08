@@ -7,14 +7,14 @@
 N/B: The submitted form value should be the value of the input button that is in 'focus'.
 */
 
-const selectedRating = document.querySelector('.selected-rating');
+const selectedRating = document.querySelector('span');
 const ratingForm = document.forms.rating;
 const ratingButtons = document.querySelectorAll('[type="button"]');
 let ratingButton;
 
 function selectRating() {
     let rating = this.value;
-    selectedRating.textContent = `You have selected ${rating} out of 5`;
+    selectedRating.textContent = `${rating}`;
 }
 
 for (ratingButton of ratingButtons) {
