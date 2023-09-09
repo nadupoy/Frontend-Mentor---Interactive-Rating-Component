@@ -74,6 +74,8 @@ Users should be able to:
   }
 ```
 
+- How to delete a file from the file system and Github repository using git, as explained in [this](https://www.git-tower.com/learn/git/commands/git-rm) article.
+
 ### Continued development
 
 - Media queries and their logical operators
